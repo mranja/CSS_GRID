@@ -1,0 +1,15 @@
+.image{
+    height: 200px;
+    width: 200px;
+}
+.grid_container{
+    display:grid;
+    grid-template-columns: 100px 100px 100px ;
+    column-gap: 30%;
+    row-gap: 30%;
+}
+.image1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 400px;
+}
