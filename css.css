@@ -5,11 +5,11 @@
 .grid_container{
     display:grid;
     grid-template-columns: 100px 100px 100px ;
-    column-gap: 30%;
-    row-gap: 30%;
+    column-gap: 150px;
+    row-gap: 10px;
 }
 .image1{
     grid-column-start: 2;
     grid-column-end: 4;
-    width: 400px;
+    width: 200px;
 }
